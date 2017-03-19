@@ -1,0 +1,10 @@
+body {
+    background-color: yellow;
+
+}
+
+:local(.box) {
+    background-color: white;
+    padding: 3em;
+    border: 1px solid deeppink;
+}
