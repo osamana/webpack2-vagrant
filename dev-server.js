@@ -11,9 +11,10 @@ var server = new WebpackDevServer(compiler, {
 	stats: {
 		colors: true
 	},
+	// vagrant integration
 	public: "192.168.33.170:64000",
 	watchOptions: {
-  	poll: true
+  	   poll: true
 	}
 });
 server.listen(64000, '0.0.0.0', function() {});
